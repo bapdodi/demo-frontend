@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: demo-frontend
-          image: cycle123/demo-frontend:latest
+          image: cycle123/demo-frontend:b69145b
           imagePullPolicy: Always
           ports:
             - containerPort: 80
